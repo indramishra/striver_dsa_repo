@@ -18,7 +18,9 @@ public class LeaderInArray {
         int[] arr = {4, 7, 1, 0};
         printLadersInArray (arr);
     }
+    //print all leaders in the array
     public static void printLadersInArray(int[] arr) {
+        //last element of the array will always be leader, because there is no element after that.
         int max = arr[arr.length-1];
         System.out.print (arr[ arr.length -1 ]+" ");
        for(int i=arr.length - 2;i>=0;i--) {

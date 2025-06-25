@@ -8,7 +8,7 @@ package Arrays;
 * */
 public class NextGreaterPremutation {
     public static void main (String[] args) {
-        int[] arr = {1,3,2};
+        int[] arr = {1,2,3};
         arr = nextLexicographicallyGreaterPermutation (arr);
         for(int elem : arr) {
             System.out.print (elem+" ");
