@@ -55,7 +55,7 @@ public class LowerBound {
             return arr[ mid ];
         }
         if (k > arr[ mid ]) {
-            return getLowerBound (arr, k, mid + 1, end);
+            return getLowerBound (arr, k, mid, end);
 
         } else {
             return getLowerBound (arr, k, start, mid - 1);
